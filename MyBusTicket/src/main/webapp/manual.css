@@ -1,0 +1,167 @@
+@charset "UTF-8";
+.login-button{
+	background-color:#009970;
+	color:#fff;
+	font-size:14px;
+	padding:8px 20px;
+	border-radius:50px;
+	text-decoration:none;
+	transition:0.3s background-color;
+}
+.login-button:hover{
+	background-color:#00b383;
+}
+.navbar-toggler{
+	border:none;
+	font-size:1.25rem;
+	
+}
+.navbar-toggler:focus,btn-close:focus{
+	box-shadow:none;
+	outline:none;
+}
+.nav-link{
+	color:#666777;
+	font-weight:500;
+	position:relative;
+}
+.nav-link:hover,.nav-link.active{
+	color:#000;
+}
+.nav-link::before{
+	content:"";
+	position:absolute;
+	bottom:0;
+	left:50%;
+	transform:translateX(-50%);
+	width:100%;
+	height:2px;
+	background-color:#009970;
+	visibility:hidden;
+	transition:0.3s ease-in-out;
+	
+	
+}
+.nav-link:hover::before, .nav-link.active::before{
+	width:100%;
+	visibility:visible;
+	
+}
+.navbar-brand{
+	font-weight:500;
+	color:#009970;
+	font-size:24px;
+	transition:0.3s background-color;
+	
+}
+.hero-section{
+	background:url("./photos/Bus3.jpg") no-repeat center;
+	background-size:cover;
+	width:100%;
+	height:100vh;
+	
+	
+}
+.navbar{
+	background-color:#fff;
+	height:88px;
+	margin:20px;
+	border-radius:16px;
+	padding:0.5rem;
+}
+.hero-section::before{
+	background-color:rgba(0,0,0,0.6);
+	content:"";
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	
+}
+
+.imageme{
+	width:20rem;
+	position:relative;
+	align-items:center;
+	left:28rem;
+}
+
+.wrapper{
+	min-height:100vh;
+	width:100%;
+	background: url("./photos/Computer1.jpg") no-repeat center;
+	background-size:cover;
+	background:linear-gradient(rgba(0,0,0,0.75),rgba(0.0.0.0.75));
+	
+}
+.tt{
+	color:#fff;
+	text-align:center;
+	letter-spacing:1px;
+}
+.testimonial{
+	padding:30px 100px;
+}
+article h1{
+	font-size:50px;font-weight:800;
+	text-transform:uppercase;
+	
+}
+article img{
+	height:225px;
+	width:200px;
+	border:2px solid #fff;
+	border-radius:50%;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+blockquote{
+	font-family:sans-serif;
+	font-size:20px;
+	margin-top:30px;
+	
+}
+article h5{
+	text-transform:uppercase;
+	font-size:27px;
+	margin-top:30px;
+	letter-spacing:1.5px;
+}
+article p{
+	font-size:17px;
+}
+form{
+	width:30%;
+	background-color:white;
+	padding:50px;
+	border-radius:20px;
+	margin-top:50px;
+}
+.back{
+	background:url("./photos/Bus3.jpg") no-repeat center;
+	background-size:cover;
+	width:100%;
+	height:100vh;
+}
+.btn-primary{
+	width:100%;
+	border:none;
+	border-radius:50px;
+}
+.form-control{
+	color:rgba(0,0,0,.87);
+	border-bottom-color:rgba(0,0,0,.42);
+	
+}
+@media only screen and(max-width:600px){
+	form{
+	width:100% !important
+	}
+}
+#container2{
+	position:relative;
+	top:20vh;
+}
+
+
